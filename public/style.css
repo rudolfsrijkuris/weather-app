@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Work Sans', sans-serif;
+    height: 100vh;
+}
+.search {
+    margin: 10% 0;
+}
+.card, .search {
+    width: 650px;
+    border-radius: 20px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+} 
+
+.search {
+    margin-top: 5%;
+}
+.card h1, h1 {
+    font-size: 7rem !important;
+    font-variant: small-caps;
+    font-weight: bolder;
+}
+.card p {
+    font-size: 2rem;
+}
+.search input {
+   text-align: center;
+   font-size: 2.5rem !important;
+   margin: 30px 0 !important;
+   padding: 10px 0 !important;
+   font-weight: bold;
+}
+.error {
+    margin: 10% 0 5% 0;
+}
+
+a button, button {
+    background-color: #546E7A !important;
+    border-radius: 20px !important;
+    font-weight: bolder;
+}
